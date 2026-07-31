@@ -1,7 +1,26 @@
 aid: noodle-partners
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/noodle-partners.png
 name: Noodle Partners
-description: Noodle Partners is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Noodle Partners (Noodle) is a higher education solutions company providing full-funnel
+  services and AI-powered products spanning student recruitment through graduation and workforce
+  development. Its product suite includes the Noodle Learning Platform (a customizable LMS for lifelong
+  learning and continuing education), Noodle Companion (an in-platform AI assistant), Noodle Engage
+  (conversational AI for recruitment and enrollment), Noodle Dialogue (AI-assisted faculty content and
+  curriculum design), and Noodle Manage (data integration and analytics). Noodle also delivers marketing,
+  enrollment, learning design, retention, and strategic consulting services to universities. It was
+  surfaced as a portfolio company of 500 Global and added to the API Evangelist network. No public
+  developer API surface was found during enrichment; the company publishes a SOC 2 trust center.
 url: https://raw.githubusercontent.com/api-evangelist/noodle-partners/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- EdTech
+- Higher Education
+- Online Program Management
+- Learning Platform
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/noodle-partners-domain-security.yml
+- type: TrustCenter
+  url: security/noodle-partners-trust-center.yml
+- type: Compliance
+  url: https://trust.noodle.com/
 - type: Website
   url: https://noodle.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

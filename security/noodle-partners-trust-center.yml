@@ -1,0 +1,12 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://trust.noodle.com/
+url: https://trust.noodle.com/
+certifications:
+- SOC 2
+evidence:
+- source: https://trust.noodle.com/
+  keywords:
+  - soc 2
+  - trust center
